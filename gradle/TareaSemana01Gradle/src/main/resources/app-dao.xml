@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<bean id="clienteDAO" class="com.myguel.training.dao.impl.ClienteDAOImpl"/>
+<!-- 	<alias name="clienteDAO" alias="app-cliienteDAO"/> -->
+	
+<!-- 	<bean id="direccionDAO" class="com.myguel.training.dao.impl.DireccionDAOImpl"   ></bean> -->
+<!-- 	<bean id="personaDAO" class="com.myguel.training.dao.impl.PersonaDAOImpl" /> -->
+	
+<!-- 	<bean id="commonDAO" class="com.myguel.training.dao.impl.CommonDAOImpl"> -->
+<!-- 		<constructor-arg type="java.lang.Integer" value="10"></constructor-arg> -->
+<!-- 		<constructor-arg type="java.lang.String" value="TUVE 10 AAÑOS HACE UFFF"></constructor-arg> -->
+<!-- 	 </bean> -->
+	 
+<!-- 	 <bean id="commonDAO" class="com.myguel.training.dao.impl.CommonDAOImpl"> -->
+<!-- 		<constructor-arg index="0" value="10"></constructor-arg> -->
+<!-- 		<constructor-arg index="1" value="TUVE 10 AAÑOS HACE UFFF"></constructor-arg> -->
+<!-- 	 </bean> -->
+	
+<!-- 	 <bean id="commonDAO" class="com.myguel.training.dao.impl.CommonDAOImpl"> -->
+<!-- 		<constructor-arg name="years" value="10"></constructor-arg> -->
+<!-- 		<constructor-arg name="ultimateAnswer" value="TUVE 10 AAÑOS HACE UFFF"></constructor-arg> -->
+<!-- 	 </bean> -->
+	  
+<!-- 	 <bean id="direccion" class="com.myguel.training.domain.Direccion"/> -->
+<!-- 	 <bean id="usuario" class="com.myguel.training.domain.Usuario"/> -->
+<!-- 	 <bean id="cliente" class="com.myguel.training.domain.Cliente"> -->
+<!-- 	 	<property name="nombre" value="MIGUEL"/> -->
+<!-- 	 	<property name="direccion" ref="direccion"/> -->
+<!-- 	 </bean> -->
+
+
+<!-- 	 <bean id="direccion" class="com.myguel.training.domain.Direccion"/> -->
+<!-- 	 <bean id="usuario" class="com.myguel.training.domain.Usuario"/> -->
+	 
+<!-- 	 <bean id="cliente" class="com.myguel.training.domain.Cliente"> -->
+<!-- 	 	<property name="direccion"> -->
+<!-- 	 		<idref bean="direccion"/> -->
+<!-- 	 	</property>	 	 -->
+<!-- 	 </bean> -->
+
+<!-- 	 <bean id="direccion" class="com.myguel.training.domain.Direccion"/> -->
+<!-- 	 <bean id="usuario" class="com.myguel.training.domain.Usuario"/> -->
+	 
+<!-- 	 <bean id="cliente" class="com.myguel.training.domain.Cliente"> -->
+<!-- 	 	<property name="direccion"> -->
+<!-- 			<bean class="com.myguel.training.domain.Direccion"> -->
+<!-- 				<property name="direccionId" value="10"></property> -->
+<!-- 				<property name="nombre" value="DIRECION 10"></property> -->
+<!-- 			</bean> -->
+<!-- 	 	</property>	 	 -->
+<!-- 	 </bean> -->
+	 
+	 
+</beans>
